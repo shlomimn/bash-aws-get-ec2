@@ -17,6 +17,7 @@ for region in $REGIONS;do
 }
 done
 
+# Concatinate all files into 1 file
 cat ec2-win-ips*.txt > ec2-win-ips.all
 rm ec2-win-ips*.txt
 
